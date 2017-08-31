@@ -11,6 +11,7 @@ const logger = require('morgan');
 
 const version = require('../../package.json').version;
 
+// eslint-disable-next-line max-statements
 function serverApp() {
     // initiate express web server
     const app = express();
